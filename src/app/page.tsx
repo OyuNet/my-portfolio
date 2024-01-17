@@ -9,7 +9,7 @@ export default function Home() {
       <Header />
 
       {/* CONTENT */}
-      <div className="flex flex-col w-full items-center justify-center pt-24">
+      <div className="flex flex-col w-full items-center justify-center pt-12">
         <p className="text-3xl font-bold m-4">Selaaam! Karşılarınızda,</p>
         <p className="text-6xl lg:text-8xl xl:text-10xl font-extrabold m-4 text-green-600 drop-shadow-2xl">Arda Yiğit Tok ✨</p>
         <p className="text-2xl font-semibold m-4 bg-gradient-to-br from-green-600 to-yellow-200 bg-clip-text text-transparent drop-shadow-xl">Part-Time IYTE CENGaveri</p>
