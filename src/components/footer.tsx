@@ -10,12 +10,12 @@ export default function Footer() {
     } else { copyrightText = "©️ 2024, bütün hakları saklıdır falan fistan." }
 
     return (
-        <footer className="absolute bottom-4 right-0 left-0 text-center mx-8 pt-12">
+        <footer className="absolute bottom-4 right-0 left-0 text-center mx-8">
             {/* Buraya github'dır, linkedin'dir, tivitır'dır falan ekleyecem efenim en son... */}
             <div className=""></div>
 
             <div>
-                <div className="text-center">Bendeniz, yani Arda Yiğit Tok, tarafından Nextjs ve TailwindCSS kullanılarak ❤️ ile geliştirildi.</div>
+                <div className="text-center">Bendeniz, yani Arda Yiğit Tok, tarafından Nextjs ve eser miktarda TailwindCSS kullanılarak ❤️ ile geliştirildi.</div>
                 <div className="text-center">©️ {CurrentYear}, bütün hakları saklıdır falan fistan.</div>
             </div>
         </footer>
