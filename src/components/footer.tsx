@@ -10,7 +10,7 @@ export default function Footer() {
     } else { copyrightText = "©️ 2024, bütün hakları saklıdır falan fistan." }
 
     return (
-        <footer className="absolute bottom-4 right-0 left-0 text-center mx-8">
+        <footer className="mt-auto text-center mx-8 p-4">
             {/* Buraya github'dır, linkedin'dir, tivitır'dır falan ekleyecem efenim en son... */}
             <div className=""></div>
 
